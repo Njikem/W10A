@@ -13,14 +13,14 @@ let bread = name_mau(15,12)
 
 
 function string(food){
-    if(food >=10){ 
-        return `i'm happy`;
-    } else {
-        return `not enough`;
-    }
     
+        return food.length >= 10;
 }
     
 let happy_string = string(true);
 let enough_string = string(false);
 let strong_enough = string(true);
+
+console.log (string(`I am happy!`));
+console.log (string(`Not enough`));
+console.log(string(`Keep it up`));
