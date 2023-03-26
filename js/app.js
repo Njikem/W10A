@@ -1,3 +1,4 @@
+//Creating custom functions
 function name_mau(numb1, numb2){
 let bright = numb1+numb2;
 let cat = bright *5;
@@ -13,8 +14,12 @@ let bread = name_mau(15,12)
 
 
 function string(food){
-    
-        return food.length >= 10;
+    if(food > 10){
+        return food.length `true`;
+
+    } else{
+        return `false`;
+    }
 }
     
 let happy_string = string(true);
